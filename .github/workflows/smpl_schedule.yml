@@ -1,0 +1,15 @@
+---
+name: "scheduled actions"
+description: "this runs based on the given schedule"
+author: "smpl"
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  five_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Five minute job that shows time
+        run: echo "The current server time is $(date)"
