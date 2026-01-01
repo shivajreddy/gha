@@ -3,10 +3,15 @@ name: "scheduled actions"
 description: "this runs based on the given schedule"
 # author: "smpl"
 
-on:
-  schedule:
-    - cron: "*/1 * * * *"
-  workflow_dispatch:
+# workflow_dispatch, shows a manual 'Run Workflow' button that would trigger the event
+on: [push, workflow_dispatch]
+# on:
+  # push:
+  #   branches:
+  #     - main
+  # schedule:
+  #   - cron: "*/1 * * * *"
+  # workflow_dispatch:
 
 jobs:
   five_job:
