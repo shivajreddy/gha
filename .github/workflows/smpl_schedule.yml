@@ -6,6 +6,7 @@ description: "this runs based on the given schedule"
 on:
   schedule:
     - cron: "*/1 * * * *"
+  workflow_dispatch:
 
 jobs:
   five_job:
