@@ -3,7 +3,8 @@ name: "scheduled actions"
 description: "this runs based on the given schedule"
 
 # workflow_dispatch, shows a manual 'Run Workflow' button that would trigger the event
-on: [push, workflow_dispatch]
+# on: [push, workflow_dispatch]
+on: [workflow_dispatch]
 # on:
   # push:
   #   branches:

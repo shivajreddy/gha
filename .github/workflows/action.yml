@@ -1,8 +1,0 @@
----
-name: "Hello World"
-description: "This is a simple hello world action"
-
-on: [push]
-
-jobs:
-  usage:

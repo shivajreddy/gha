@@ -1,0 +1,13 @@
+---
+name: "Hello World"
+description: "This is a simple hello world action"
+
+on: [push]
+
+jobs:
+  hello_world:
+    name: Prints Hello World
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World from push"
