@@ -5,7 +5,7 @@ author: "smpl"
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/1 * * * *"
 
 jobs:
   five_job:
