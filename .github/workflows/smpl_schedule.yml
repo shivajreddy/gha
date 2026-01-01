@@ -1,7 +1,7 @@
 ---
 name: "scheduled actions"
 description: "this runs based on the given schedule"
-author: "smpl"
+# author: "smpl"
 
 on:
   schedule:
