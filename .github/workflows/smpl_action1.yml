@@ -2,7 +2,11 @@
 name: "Hello World"
 description: "This is a simple hello world action"
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+      - dev
 
 jobs:
 
